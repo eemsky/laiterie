@@ -1,0 +1,117 @@
+/* -------- affichage desktop -------- */
+.row1{
+  flex-direction: row;
+}
+.row-reverse{
+  flex-direction: row-reverse;
+
+}
+div.bloc-events{
+  padding:50px;
+  div.bloc-events-content{
+    display: flex;
+    padding: 20px 0;
+    div.bloc-image-event{
+      width: 50%;
+    }
+    div.bloc-text-event{
+      width: 50%;
+      padding: 35px;
+      color: $color-primary;
+      div.bg-color-date{
+        h4.date-event{
+          padding: 5px;
+          background-color: $color-secondary;
+          display: inline-block;
+          font-weight: 800;
+
+        }
+      }
+
+      h3.title-event{
+          margin-top: 10px;
+        font-size: 29px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      hr.separateur-event{
+        color: $color-primary;
+        width: 25px;
+        margin: 15px 0;
+      }
+      p.style-event{
+        font-weight: 600;
+        font-style: italic;
+        font-size: 18px;
+      }
+      p.text-event{
+        font-size: 16px;
+        padding-bottom: 20px;
+      }
+      a.btn-decouvrir:hover{
+          color: $color-secondary;
+          text-decoration: none;
+      }
+      a.btn-decouvrir{
+        font-weight: 800;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: 2px solid $color-secondary;
+      }
+    }
+  }
+}
+div.btn-event{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+  a.btn-decouvrir-event:hover{
+      background-color: $color-complementary-hover;
+      text-decoration: none;
+  }
+
+  a.btn-decouvrir-event{
+    text-align: center;
+    color: $color-white;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: $color-complementary;
+  }
+}
+
+
+/* -------- affichage à partir de 992px -------- */
+@media screen and (max-width: 992px){
+  div.bloc-events{
+    padding:70px;
+    div.bloc-events-content{
+      display: block;
+      margin: 0 auto;
+      div.bloc-image-event{
+        width: 100%;
+        text-align: center;
+      }
+      div.bloc-text-event{
+        width: 100%;
+                div.bg-color-date{
+          h4.date-event{
+          }
+        }
+      }
+    }
+  }
+}
+
+/* -------- affichage à partir de 768px -------- */
+@media screen and (max-width: 768px){
+    div.bloc-events{
+      padding:10px;
+      div.bloc-events-content{
+        div.bloc-text-event{
+          padding: 10px;
+          color: $color-primary;
+        }
+      }
+    }
+}

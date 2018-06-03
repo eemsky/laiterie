@@ -1,0 +1,192 @@
+/* -------- affichage desktop -------- */
+div.container-slider{
+  padding: 0;
+  div.slider-home{
+    div.text-slider-home{
+      color: $color-white;
+      padding: 180px 100px ;
+      h2.title-slider-home{
+        font-size: 50px;
+        width: 40%;
+      }
+      p.text-slider{
+        font-size: 27px;
+        padding: 20px 0;
+        width: 40%;
+
+      }
+      hr.separation-hr{
+        width: 30px;
+        border: 2px solid $color-secondary;
+        color: $color-white;
+        margin: 0 0 auto 0;
+      }
+      a.btn-slider:hover{
+          color: $color-secondary;
+          text-decoration: none;
+      }
+      a.btn-slider{
+        color: $color-white;
+        font-weight: 800;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: 2px solid $color-secondary;
+      }
+    }
+
+    img{
+    }
+    .img-deco-home{
+      text-align: center;
+      margin: 0 auto;
+      img.deco-home{
+        margin-top: -25px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+}
+
+/* -------- affichage à partir de 1400px -------- */
+@media screen and (max-width: 1400px){
+  div.container-slider{
+    padding: 0;
+    div.slider-home{
+      div.text-slider-home{
+        padding: 90px 100px ;
+        height: 650px!important;
+        background-position:-30px;
+        h2.title-slider-home{
+          font-size: 50px;
+          width: 40%;
+        }
+        p.text-slider{
+          font-size: 27px;
+          padding: 20px 0;
+          width: 40%;
+
+        }
+      }
+    }
+  }
+}
+
+/* -------- affichage à partir de 992px -------- */
+@media screen and (max-width: 992px){
+  div.container-slider{
+    padding: 0;
+    div.slider-home{
+      div.text-slider-home{
+        padding: 50px 70px ;
+        height: 500px!important;
+        h2.title-slider-home{
+          font-size: 40px;
+          width: 40%;
+        }
+        p.text-slider{
+          font-size: 20px;
+          padding: 20px 0;
+          width: 40%;
+
+        }
+      }
+    }
+  }
+}
+/* -------- affichage à partir de 768px -------- */
+@media screen and (max-width: 768px){
+  div.container-slider{
+    padding: 0;
+    div.slider-home{
+      div.text-slider-home{
+        padding: 80px 50px ;
+        height: 500px!important;
+        h2.title-slider-home{
+          font-size: 40px;
+          width: 70%;
+        }
+        p.text-slider{
+          font-size: 20px;
+          padding: 20px 0;
+          width: 70%;
+
+        }
+      }
+    }
+  }
+}
+/* -------- affichage à partir de 510px -------- */
+@media screen and (max-width: 510px){
+  div.container-slider{
+    padding: 0;
+    div.slider-home{
+      div.text-slider-home{
+        padding: 50px 50px ;
+        height: 500px!important;
+        h2.title-slider-home{
+          font-size: 40px;
+          width: 70%;
+        }
+        p.text-slider{
+          font-size: 20px;
+          padding: 20px 0;
+          width: 70%;
+
+        }
+      }
+    }
+  }
+}
+/* -------- affichage à partir de 445px -------- */
+@media screen and (max-width: 445px){
+  div.container-slider{
+    padding: 0;
+    div.slider-home{
+      div.text-slider-home{
+        padding: 100px 40px ;
+        height: 500px!important;
+        h2.title-slider-home{
+          font-size: 30px;
+          width: 80%;
+        }
+        p.text-slider{
+          font-size: 20px;
+          padding: 20px 0;
+          width: 80%;
+
+        }
+      }
+    }
+  }
+}
+
+/* -------- affichage à partir de 330px -------- */
+@media screen and (max-width: 330px){
+  div.container-slider{
+    padding: 0;
+    div.slider-home{
+      div.text-slider-home{
+        padding: 70px 40px ;
+        height: 450px!important;
+        h2.title-slider-home{
+          font-size: 30px;
+          width: 100%;
+        }
+        p.text-slider{
+          font-size: 20px;
+          padding: 20px 0;
+          width: 100%;
+        }
+        a.btn-slider{
+          color: $color-white;
+          font-weight: 800;
+          font-size: 13px;
+          padding: 10px 20px;
+          border: 2px solid $color-secondary;
+        }
+      }
+    }
+  }
+}

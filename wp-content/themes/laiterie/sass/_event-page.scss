@@ -1,0 +1,135 @@
+/* -------- affichage desktop -------- */
+div.bloc-events-page{
+  padding:50px;
+  h2{
+    font-weight: 800;
+    font-size: 27px;
+    color: $color-primary;
+    margin-bottom: 40px;
+  }
+  div.bloc-events-content{
+    display: flex;
+    padding: 15px 0;
+    div.bloc-image-event{
+      width: 15%;
+      img{
+        margin-bottom: 25px;
+      }
+      h4.date-event{
+        padding: 5px;
+        background-color: $color-secondary;
+        text-align: center;
+        font-weight: 800;
+        color: $color-primary;
+
+      }
+        }
+    a.btn-decouvrir:hover{
+        color: $color-secondary;
+        text-decoration: none;
+    }
+    a.btn-decouvrir{
+      font-weight: 800;
+      font-size: 16px;
+      padding: 10px 35px;
+      border: 2px solid $color-secondary;
+    }
+    div.bloc-text-event{
+      width: 85%;
+      padding: 27px 15px 15px 40px;
+      color: $color-primary;
+
+      h3.title-event{
+        font-size: 29px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      p.style-event{
+        font-weight: 600;
+        font-style: italic;
+        font-size: 18px;
+      }
+      p.text-event{
+        font-size: 16px;
+        padding-bottom: 20px;
+      }
+
+    }
+  }
+}
+hr.separation-events{
+  margin-top:17px;
+}
+div.btn-event{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+  a.btn-decouvrir-event{
+    text-align: center;
+    color: $color-white;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: $color-complementary;
+  }
+}
+
+
+/* -------- affichage à partir de 1399px -------- */
+@media screen and (max-width: 1399px){
+  div.bloc-events-page{
+    div.bloc-events-content{
+      a.btn-decouvrir{
+        font-size: 14px;
+        padding: 10px 47px;
+
+      }
+    }
+  }
+}
+
+
+/* -------- affichage à partir de 992px -------- */
+@media screen and (max-width: 992px){
+  div.bloc-events-page{
+    div.bloc-events-content{
+      div.bloc-image-event{
+        width: 30%;
+          }
+      div.bloc-text-event{
+        width: 70%;
+
+      }
+    }
+  }
+}
+
+
+/* -------- affichage à partir de 768px -------- */
+@media screen and (max-width: 768px){
+  div.bloc-events-page{
+    div.bloc-events-content{
+      display: block;
+      div.bloc-image-event{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        img{
+          margin-bottom: 25px;
+        }
+          }
+      div.bloc-text-event{
+        width: 100%;
+        h3.title-event{
+          margin-top: 40px;
+        }
+
+      }
+    }
+  }
+  div.btn-event{
+    a.btn-decouvrir-event{
+      display: block;
+    }
+  }
+}

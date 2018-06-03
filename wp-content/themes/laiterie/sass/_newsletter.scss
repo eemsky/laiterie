@@ -1,0 +1,99 @@
+/* -------- affichage desktop -------- */
+div.container-newsletter{
+  background-color: $color-complementary;
+  div.content-formulaire{
+    padding: 50px 40px;
+    text-align: center;
+    margin: 0 auto;
+    form{
+      label{
+        color: $color-white;
+        font-size: 20px;
+        font-weight: 800;
+        padding-right: 30px;
+      }
+      input.champ{
+        height:30px;
+        width:350px;
+        border: 0;
+        padding: 5px 15px;
+        margin: 0;
+      }
+      input.send:hover{
+          background-color: $color-complementary-hover;
+      }
+
+      input.send{
+        background-color: $color-primary;
+        color: $color-white;
+        font-size: 15px;
+        height: 30px;
+        padding: 5px 25px;
+        margin: 0;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+/* -------- affichage à partir de 992px -------- */
+@media screen and (max-width: 992px){
+  div.container-newsletter{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    div.content-formulaire{
+      padding: 20px 30px;
+      text-align: center;
+      margin: 0 auto;
+      form{
+        margin: 0 auto;
+        text-align: center;
+        input.champ{
+        display: block;
+        margin: 15px auto;
+          width:250px;
+        }
+        input.send{
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    }
+  }
+
+}
+
+/* -------- affichage à partir de 767px -------- */
+@media screen and (max-width: 767px){
+  div.container-newsletter{
+    padding-top: 125px;
+  }
+}
+/*
+
+/* -------- affichage à partir de 383px -------- */
+@media screen and (max-width: 469px){
+  div.container-newsletter{
+    padding-top: 180px;
+  }
+}
+
+/* -------- affichage à partir de 372px -------- */
+@media screen and (max-width: 401px){
+  div.container-newsletter{
+    padding-top: 225px;
+  }
+}
+/* -------- affichage à partir de 338px -------- */
+@media screen and (max-width: 383px){
+  div.container-newsletter{
+    padding-top: 245px;
+  }
+}
+/* -------- affichage à partir de 338px -------- */
+@media screen and (max-width: 352px){
+  div.container-newsletter{
+    padding-top: 265px;
+  }
+}

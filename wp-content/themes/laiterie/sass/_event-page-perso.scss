@@ -1,0 +1,431 @@
+article.container-event-perso{
+  div.bloc-events-perso{
+    div.img-event-perso{
+        padding: 0;
+        height: 500px;
+        overflow: hidden;
+        img:hover{
+            transform: scale(1.03);
+        }
+        img{
+            width: 100%;
+            transition: 0.4s;
+            height: auto;
+        }
+    }
+    div.bloc-buy-ticket{
+        padding: 45px;
+        color: $color-white;
+        background-color: $color-black;
+        p.text-intro{
+            font-weight: 800;
+            font-style: italic;
+        }
+        p{
+            font-size: 17px;
+        }
+        p.infos_supplementaires{
+            margin-bottom: 30px;
+        }
+        h4{
+            color: $color-secondary;
+            font-weight: 800;
+            font-size: 23px;
+        }
+        a.btn-buy-event:hover{
+            background-color: $color-complementary-hover;
+            text-decoration: none;
+
+        }
+        a.btn-buy-event{
+            color: $color-white;
+            font-weight: 800;
+            font-size: 16px;
+            padding: 10px 20px;
+            background-color: $color-complementary;
+            width: 100%;
+        }
+    }
+    div.bloc-retour{
+        margin: 30px auto 0 0;
+        a.btn-retour:hover{
+            color: $color-secondary;
+            text-decoration: none;
+        }
+        a.btn-retour{
+            font-weight: 800;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: 2px solid $color-secondary;
+        }
+    }
+    div.infos-event{
+        h4.title-artiste{
+            color: $color-secondary;
+            font-weight: 800;
+            font-size: 30px;
+            margin-top: 75px;
+        }
+        p.style-event{
+          font-weight: 600;
+          font-style: italic;
+          font-size: 23px;
+          color: $color-primary;
+        }
+        div.content-infos{
+            display: flex;
+            font-size: 16px;
+
+            p.text-event_perso{
+                margin-bottom: 0px;
+              padding-bottom: 20px;
+              width: 67%;
+              padding-right: 70px;
+            }
+            div.bloc-infos{
+                width: 33%;
+                border: 2px solid $color-primary;
+                padding: 40px;
+                height: 400px;
+                font-weight: 600;
+                line-height: 30px;
+                h4{
+                    color: $color-secondary;
+                    font-weight: 800;
+                    font-size: 23px;
+                }
+            }
+        }
+        div.content-video{
+            margin: 0 auto;
+            text-align: center;
+            padding: 90px 0;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 1399px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+        div.img-event-perso{
+            height: 450px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        div.bloc-buy-ticket{
+            padding: 20px;
+            p{
+                font-size: 15px;
+            }
+            h4{
+                font-size: 23px;
+            }
+        }
+        div.infos-event{
+            p.style-event{
+              font-size: 18px;
+            }
+            p.text-event_perso{
+              font-size: 15px;
+            }
+            div.content-video{
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 90px;
+                iframe{
+                    width: 100%;
+                    height: 500px;
+                }
+
+            }
+            div.content-infos{
+                div.bloc-infos{
+                    height: 500px;
+                }
+            }
+        }
+      }
+    }
+
+}
+
+@media screen and (max-width: 1199px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+        div.img-event-perso{
+            padding: 0;
+            height: inherit;
+            overflow: hidden;
+            height: auto;
+
+            img{
+                width: 100%;
+                height: auto;
+
+            }
+        }
+        div.bloc-buy-ticket{
+            padding: 45px;
+            color: $color-white;
+            background-color: $color-black;
+            p.text-intro{
+                font-weight: 800;
+                font-style: italic;
+            }
+            p{
+                font-size: 17px;
+            }
+            p.infos_supplementaires{
+                margin-bottom: 30px;
+            }
+            h4{
+                color: $color-secondary;
+                font-weight: 800;
+                font-size: 23px;
+            }
+            a.btn-buy-event{
+                color: $color-white;
+                font-weight: 800;
+                font-size: 16px;
+                padding: 10px 20px;
+                background-color: $color-complementary;
+                width: 100%;
+            }
+        }
+        div.infos-event{
+            p.style-event{
+              font-weight: 600;
+              font-style: italic;
+              font-size: 18px;
+            }
+            p.text-event_perso{
+                margin-bottom: 90px;
+              font-size: 16px;
+              padding-bottom: 20px;
+            }
+            div.content-video{
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 90px;
+                iframe{
+                    width: 100%;
+                    height: 500px;
+                }
+
+            }
+        }
+      }
+    }
+}
+
+
+
+
+@media screen and (max-width: 991px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+        div.img-event-perso{
+            padding: 0;
+            height: auto;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                height: auto;
+
+            }
+        }
+        div.bloc-buy-ticket{
+            padding: 45px;
+            color: $color-white;
+            background-color: $color-black;
+            p.text-intro{
+                font-weight: 800;
+                font-style: italic;
+            }
+            p{
+                font-size: 17px;
+            }
+            p.infos_supplementaires{
+                margin-bottom: 30px;
+            }
+            h4{
+                color: $color-secondary;
+                font-weight: 800;
+                font-size: 23px;
+            }
+            a.btn-buy-event{
+                color: $color-white;
+                font-weight: 800;
+                font-size: 16px;
+                padding: 10px 20px;
+                background-color: $color-complementary;
+                width: 100%;
+            }
+        }
+        div.bloc-retour{
+            margin: 30px auto 0 0;
+            a.btn-retour{
+                font-weight: 800;
+                font-size: 16px;
+                padding: 10px 20px;
+                border: 2px solid $color-secondary;
+            }
+        }
+        div.infos-event{
+            p.style-event{
+              font-weight: 600;
+              font-style: italic;
+              font-size: 18px;
+            }
+            div.content-infos{
+                display: block;
+                p.text-event_perso{
+                margin-bottom: 50px;
+                  width: 100%;
+                  padding: 0px;
+                }
+                div.bloc-infos{
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 50px;
+
+                }
+            }
+        }
+      }
+    }
+    }
+
+
+
+@media screen and (max-width: 530px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+
+        div.infos-event{
+
+            div.content-video{
+                iframe{
+                    width: 100%;
+                    height: 300px;
+                }
+
+            }
+        }
+        div.bloc-retour{
+            margin: 30px auto;
+            a.btn-retour{
+                font-weight: 800;
+                font-size: 16px;
+                padding: 10px 20px;
+                border: 2px solid $color-secondary;
+            }
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 983px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+
+        div.infos-event{
+
+            div.content-video{
+                iframe{
+                    width: 100%;
+                    height: 375px;
+                }
+
+            }
+        }
+      }
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+
+        div.infos-event{
+
+            div.content-video{
+                iframe{
+                    width: 100%;
+                    height: 300px;
+                }
+
+            }
+        }
+      }
+    }
+}
+@media screen and (max-width: 567px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+
+        div.infos-event{
+
+            div.content-video{
+                iframe{
+                    width: 100%;
+                    height: 250px;
+                }
+
+            }
+        }
+      }
+    }
+}
+@media screen and (max-width: 480px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+
+        div.infos-event{
+
+            div.content-video{
+                iframe{
+                    width: 100%;
+                    height: 230px;
+                }
+
+            }
+        }
+      }
+    }
+}
+@media screen and (max-width: 450px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+        div.infos-event{
+            div.content-video{
+                iframe{
+                    width: 100%;
+                    height: 210px;
+                }
+
+            }
+        }
+      }
+    }
+}
+@media screen and (max-width: 400px){
+    article.container-event-perso{
+      div.bloc-events-perso{
+        div.infos-event{
+            div.content-video{
+                iframe{
+                    width: 100%;
+                    height: 190px;
+                }
+
+            }
+        }
+      }
+    }
+}

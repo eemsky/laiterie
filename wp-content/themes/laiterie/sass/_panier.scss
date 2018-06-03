@@ -1,0 +1,537 @@
+div.container-panier{
+  div.bloc-page-panier{
+    display: flex;
+    margin-top: 20px;
+    h2{
+      font-weight: 800;
+      font-size: 27px;
+      color: $color-primary;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    a.btn-event-retour{
+        margin: 0 0 0 auto;
+      font-size: 16px;
+      padding: 7px 20px 0px 20px;
+      border: 2px solid $color-secondary;
+      margin-bottom: 15px;
+      font-weight: 800;
+
+    }
+  }
+  div.content-panier-infos{
+    background-color: $color-black;
+    max-height: 122px;
+    color: $color-white;
+    div.content-img-date{
+      padding: 0;
+      h4.date-event{
+        padding: 10px;
+        background-color: $color-secondary;
+        text-align: center;
+        font-weight: 800;
+        color: $color-primary;
+      }
+    }
+    div.content-commande{
+      padding: 20px 20px 0 20px;
+      p{
+        font-size: 16px;
+        span{
+          font-weight: 600;
+
+        }
+        br.br-mobile{
+          display: none;
+        }
+
+      }
+    }
+    div.content-price{
+      margin-left: 225px;
+      margin-top: 28px;
+      border: 1px solid #fff;
+      width: 60px;
+      height: 60px;
+      p{
+        font-size: 16px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 20px;
+      }
+    }
+  }
+  div.valid-panier{
+    background-color: $color-gray;
+    p{
+      font-size: 18px;
+    }
+    div.bloc-valid-panier{
+      display: flex;
+      p{
+        font-style: italic;
+        padding: 20px 20px 17px 20px;
+      }
+      select{
+        height: 30px;
+        margin-top: 18px;
+      }
+    }
+    div.bloc-valid-price{
+      text-align: right;
+      padding-top:10px;
+    }
+  }
+  div.cta-register{
+    margin-top: 30px;
+    div.btn-commande{
+      display: flex;
+      justify-content: flex-end;
+      a.btn-register, a.btn-validate{
+        font-weight: 800;
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+      margin: 0 10px;
+      a.btn-validate{
+          background-color: $color-complementary;
+          color: $color-white;
+      }
+      a.btn-register{
+          margin-right: 30px;
+          border: 2px solid $color-secondary;
+      }
+
+    }
+  }
+  hr.separation{
+    margin: 50px 0;
+  }
+  div.bloc-page-like{
+    h2{
+      font-weight: 800;
+      font-size: 27px;
+      color: $color-primary;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+    div.bloc-like-music{
+      display: flex;
+      text-align: center;
+      margin-bottom: 70px;
+
+      div.content-like{
+        img{
+          margin-bottom: 20px;
+        }
+        h4{
+          font-size: 16px;
+          font-weight: 600;
+        }
+        p{
+          font-size: 14px;
+          margin-bottom: 30px;
+        }
+        a.btn-decouvrir{
+          font-weight: 800;
+          font-size: 16px;
+          padding: 10px 20px;
+          border: 2px solid $color-secondary;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1399px){
+  div.container-panier{
+    div.bloc-page-panier{
+    }
+    div.content-panier-infos{
+      max-height: 100px;
+      div.content-price{
+        margin-left: 155px;
+        margin-top: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px){
+  div.container-panier{
+    div.bloc-page-panier{
+    }
+    div.content-panier-infos{
+      max-height: 85px;
+      div.content-img-date{
+        padding: 0;
+        h4.date-event{
+          padding: 10px;
+          background-color: $color-secondary;
+          text-align: center;
+          font-weight: 800;
+          color: $color-primary;
+        }
+      }
+      div.content-commande{
+        padding: 10px 5px 0 15px;
+        p{
+          font-size: 16px;
+          span{
+            font-weight: 600;
+          }
+        }
+      }
+      div.content-price{
+        margin-left: 105px;
+        margin-top: 13px;
+      }
+    }
+    div.valid-panier{
+      background-color: $color-gray;
+      p{
+        font-size: 18px;
+      }
+      div.bloc-valid-panier{
+        display: flex;
+        p{
+          font-style: italic;
+          padding: 15px 0px 17px 15px;        }
+        select{
+          height: 30px;
+          margin-top: 18px;
+          margin-left: 10px;
+        }
+      }
+      div.bloc-valid-price{
+        text-align: right;
+        padding-top:10px;
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 769px){
+  div.container-panier{
+    div.bloc-page-panier{
+      display: flex;
+      margin-top: 20px;
+
+    }
+    div.content-panier-infos{
+      background-color: $color-black;
+      max-height: 85px;
+      color: $color-white;
+      div.content-img-date{
+        padding: 0;
+        h4.date-event{
+          padding: 10px;
+          background-color: $color-secondary;
+          text-align: center;
+          font-weight: 800;
+          color: $color-primary;
+        }
+      }
+      div.content-commande{
+        padding: 10px 10px 0 10px;
+      }
+      div.content-price{
+        margin-left: 104px;
+        margin-top: 13px;
+        border: 1px solid #fff;
+        width: 60px;
+        height: 60px;
+        p{
+          font-size: 16px;
+          font-weight: 800;
+          text-align: center;
+          padding-top: 20px;
+        }
+      }
+    }
+    div.valid-panier{
+      background-color: $color-gray;
+      p{
+        font-size: 18px;
+      }
+      div.bloc-valid-panier{
+        display: flex;
+        p{
+          font-style: italic;
+          padding: 20px 20px 17px 20px;
+        }
+        select{
+          height: 30px;
+          margin-top: 18px;
+        }
+      }
+      div.bloc-valid-price{
+        text-align: right;
+        padding-top:10px;
+      }
+    }
+    div.cta-register{
+      margin:30px 0;
+      div.btn-commande{
+        display: flex;
+        justify-content: space-between;
+        a.btn-register, a.btn-validate{
+          font-weight: 800;
+          font-size: 16px;
+          padding: 10px 20px;
+          border: 2px solid $color-secondary;
+        }
+      }
+    }
+    hr.separation{
+      margin: 50px 0;
+    }
+    div.bloc-page-like{
+      h2{
+        font-weight: 800;
+        font-size: 27px;
+        color: $color-primary;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      div.bloc-like-music{
+        display: block;
+        text-align: center;
+        margin-bottom: 70px;
+
+        div.content-like{
+          margin: 0 auto;
+          padding-bottom: 45px;
+          img{
+            margin-bottom: 20px;
+          }
+          h4{
+            font-size: 16px;
+            font-weight: 600;
+          }
+          p{
+            font-size: 14px;
+            margin-bottom: 30px;
+          }
+          a.btn-decouvrir{
+            font-weight: 800;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: 2px solid $color-secondary;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  div.container-panier{
+    div.bloc-page-panier{
+    }
+    div.content-panier-infos{
+      max-height: 92px;
+      div.content-price{
+        margin-left: 50px;
+        margin-top: 22px;
+
+      }
+      //
+
+    }
+    div.content-panier-infos{
+      background-color: $color-black;
+      color: $color-white;
+      div.content-img-date{
+        padding: 0;
+        h4.date-event{
+          padding: 10px;
+          background-color: $color-secondary;
+          text-align: center;
+          font-weight: 800;
+          color: $color-primary;
+        }
+      }
+      div.content-commande{
+        p{
+          font-size: 14px;
+          span{
+            font-weight: 600;
+
+          }
+          br.br-mobile{
+            display: none;
+          }
+
+        }
+      }
+      div.content-price{
+        margin-left: 55px;
+        margin-top: 15px;
+        border: 1px solid #fff;
+        width: 60px;
+        height: 60px;
+        p{
+          font-size: 18px;
+          font-weight: 800;
+          text-align: center;
+          padding-top: 17px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 573px){
+  div.container-panier{
+    div.bloc-page-panier{
+      display: block;
+      margin-top: 20px;
+      h2{
+        font-weight: 800;
+        font-size: 27px;
+        color: $color-primary;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+      p{
+        margin: 0 0 0 auto;
+        text-align: right;
+      }
+      a.btn-event-retour{
+          margin: 0 auto;
+          display: block;
+          width: 280px;
+        padding: 7px 20px 5px 20px;
+        margin:0 0 20px 0;
+
+      }
+    }
+    div.content-panier-infos{
+      background-color: $color-black;
+      max-height: none;
+      display: block;
+      padding-bottom: 10px;
+
+      color: $color-white;
+      div.content-img-date{
+        display: block;
+        padding: 0;
+        img{
+          max-width:600%;
+          width: 1000px
+        }
+        h4.date-event{
+          padding: 10px;
+          background-color: $color-secondary;
+          text-align: center;
+          font-weight: 800;
+          color: $color-primary;
+          max-width: none;
+        }
+      }
+      div.content-commande{
+        padding: 20px 20px 0 20px;
+        p{
+          font-size: 16px;
+          span{
+            font-weight: 600;
+
+          }
+          br.br-mobile{
+            display: none;
+          }
+
+        }
+      }
+      div.content-price{
+        margin: 0 10px 0 auto;
+        border: 1px solid #fff;
+        width: 60px;
+        height: 60px;
+        p{
+          font-size: 16px;
+          font-weight: 800;
+          text-align: center;
+          padding-top: 20px;
+        }
+      }
+    }
+    div.valid-panier{
+      background-color: $color-gray;
+      padding-bottom: 20px;
+      display: block;
+      p{
+        font-size: 18px;
+      }
+      div.bloc-valid-panier{
+        display: flex;
+        p{
+          font-style: italic;
+          padding: 20px 20px 17px 20px;
+        }
+        select{
+          height: 30px;
+          margin-top: 18px;
+        }
+      }
+      div.bloc-valid-price{
+        text-align: right;
+        padding-top:10px;
+        display: block;
+      }
+    }
+    div.cta-register{
+      margin:30px 0;
+      div.btn-commande{
+        display: block;
+        justify-content: space-between;
+        a.btn-register, a.btn-validate{
+          display: block;
+          margin: 10px 0;
+          text-align: center;
+          font-weight: 800;
+          font-size: 16px;
+          padding: 10px 20px;
+          border: 2px solid $color-secondary;
+        }
+      }
+    }
+    hr.separation{
+      margin: 50px 0;
+    }
+    div.bloc-page-like{
+      h2{
+        font-weight: 800;
+        font-size: 27px;
+        color: $color-primary;
+        margin-bottom: 50px;
+        text-align: left;
+      }
+      div.bloc-like-music{
+        display: block;
+        text-align: center;
+        margin-bottom: 70px;
+
+        div.content-like{
+          img{
+            margin-bottom: 20px;
+          }
+          h4{
+            font-size: 16px;
+            font-weight: 600;
+          }
+          p{
+            font-size: 14px;
+            margin-bottom: 30px;
+          }
+          a.btn-decouvrir{
+            font-weight: 800;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: 2px solid $color-secondary;
+          }
+        }
+      }
+    }
+  }
+}

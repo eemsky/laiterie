@@ -1,0 +1,77 @@
+div.container-contact{
+  div.background-contact{
+    background-image: url(./img/background-contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 830px;
+    width: 100%;
+    div.bloc-contact{
+      color: $color-white;
+      width: 50%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      margin: 0 0 0 auto;
+      padding-top: 200px;
+
+      h2{
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+      }
+      p{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+        form.bloc-formulaire{
+          text-align: center;
+          input::placeholder, textarea::placeholder {
+            font-size: 15px;
+            padding: 10px;
+            color: $color-white;
+          }
+          input.champ-text{
+            margin: 5px 0;
+            height: 30px;
+            width: 60%;
+            background-color: rgba(0, 0, 0, .1);
+            border: 1px solid #fff;
+          }
+          input.champ-text, textarea{
+              color: $color-secondary;
+              font-size: 16px;
+          }
+
+          textarea{
+            width: 60%;
+            background-color: rgba(0, 0, 0, .1);
+            border: 1px solid #fff;
+          }
+          input.cta-envoyer{
+            margin-top: 20px;
+            color: $color-white;
+            font-weight: 800;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: 2px solid $color-secondary;
+            background-color: rgba(0, 0, 0, .1);
+          }
+          input.cta-envoyer:hover{
+              background-color: $color-secondary;
+              color: $color-primary;
+          }
+        }
+    }
+  }
+}
+
+/* -------- affichage à partir de 992px -------- */
+@media screen and (max-width: 992px){
+  div.container-contact{
+    div.background-contact{
+      div.bloc-contact{
+        width: 100%;
+      }
+    }
+  }
+}

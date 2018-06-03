@@ -1,0 +1,64 @@
+/* -------- affichage desktop -------- */
+div.container-atouts{
+  background-color: $color-black;
+  padding: 40px 0;
+  div.content-atouts{
+    display: flex;
+    justify-content: center;
+    color: $color-white;
+    p{
+      text-align: center;
+      font-size: 22px;
+      padding: 0 40px;
+      span{
+        font-size: 40px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+/* -------- affichage à partir de 992px -------- */
+@media screen and (max-width: 992px){
+  div.container-atouts{
+    padding: 5px 0;
+    div.content-atouts{
+      p{
+        font-size: 18px;
+        span{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+/* -------- affichage à partir de 768px -------- */
+@media screen and (max-width: 768px){
+  div.container-atouts{
+    padding: 5px 0;
+    div.content-atouts{
+      p{
+        font-size: 16px;
+        span{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+/* -------- affichage à partir de 510px -------- */
+@media screen and (max-width: 510px){
+  div.container-atouts{
+    padding: 5px 0;
+    div.content-atouts{
+      display: block;
+      p{
+        font-size: 22px;
+        span{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
