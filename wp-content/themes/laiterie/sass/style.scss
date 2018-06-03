@@ -1,19 +1,16 @@
-@import 'colors.scss';
+@import 'style/global/colors.scss';
 @import 'reset.scss';
-@import 'menu.scss';
-@import 'fonts.scss';
-@import 'slider.scss';
-@import 'events-home.scss';
-@import 'atouts.scss';
-@import 'partner.scss';
-@import 'newsletter.scss';
-@import 'event-page.scss';
-@import 'contact.scss';
-@import 'panier.scss';
-@import 'event-page-perso.scss';
-@import 'menu-burger.scss';
-@import 'slider_partenaires.scss';
-@import 'footer.scss';
-.test{
-  border: 1px solid #000;
-}
+@import 'style/menus/menu.scss';
+@import 'style/global/fonts.scss';
+@import 'style/home/slider.scss';
+@import 'style/home/events-home.scss';
+@import 'style/home/atouts.scss';
+@import 'style/home/partner.scss';
+@import 'style/home/newsletter.scss';
+@import 'style/event-page.scss';
+@import 'style/contact.scss';
+@import 'style/panier.scss';
+@import 'style/event-page-perso.scss';
+@import 'style/menus/menu-burger.scss';
+@import 'style/home/slider_partenaires.scss';
+@import 'style/menus/footer.scss';

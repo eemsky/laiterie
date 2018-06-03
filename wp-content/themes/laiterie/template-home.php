@@ -110,9 +110,6 @@
               <h3 class="title-partner"><?php the_field('title_partner'); ?></h3>
               <p class="text-partner"><?php the_field('text_partner'); ?></p>
               <a href="<?php echo get_permalink(14);?>" class="btn-decouvrir">NOUS CONTACTER</a>
-
-
-
             </div>
           </div>
       </div>
@@ -154,8 +151,5 @@
               </div>
             </div>
         </div>
-
-
     <?php
-
       get_footer();?>

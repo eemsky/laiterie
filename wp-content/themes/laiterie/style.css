@@ -260,6 +260,7 @@ a img.aligncenter {
   }
 }
 
+/* -------- affichage desktop -------- */
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -300,12 +301,14 @@ header.header .container .row .menu-nav nav.nav ul li a {
   color: inherit;
 }
 
+/* -------- affichage à partir de 992px -------- */
 @media screen and (max-width: 992px) {
   header.header .container .row .menu-nav nav.nav ul li {
     font-size: 13px;
   }
 }
 
+/* -------- affichage à partir de 768px -------- */
 @media screen and (max-width: 768px) {
   header.header .container .row .menu-nav {
     display: none;
@@ -315,6 +318,7 @@ header.header .container .row .menu-nav nav.nav ul li a {
   }
 }
 
+/* -------- affichage à partir de 510px -------- */
 @media screen and (max-width: 510px) {
   header.header .container {
     padding-top: 15px;
@@ -989,6 +993,7 @@ div.btn-event a.btn-decouvrir-event {
   }
 }
 
+/* -------- affichage desktop -------- */
 div.container-contact div.background-contact {
   background-image: url(./img/background-contact.png);
   background-position: center;
@@ -1069,6 +1074,7 @@ div.container-contact div.background-contact div.bloc-contact form.bloc-formulai
   }
 }
 
+/* -------- affichage desktop -------- */
 div.container-panier div.bloc-page-panier {
   display: flex;
   margin-top: 20px;
@@ -1232,6 +1238,7 @@ div.container-panier div.bloc-page-like div.bloc-like-music div.content-like a.b
   border: 2px solid #6fd1e6;
 }
 
+/* -------- affichage à partir de 1399px -------- */
 @media screen and (max-width: 1399px) {
   div.container-panier div.content-panier-infos {
     max-height: 100px;
@@ -1242,6 +1249,7 @@ div.container-panier div.bloc-page-like div.bloc-like-music div.content-like a.b
   }
 }
 
+/* -------- affichage à partir de 991px -------- */
 @media screen and (max-width: 991px) {
   div.container-panier div.content-panier-infos {
     max-height: 85px;
@@ -1293,6 +1301,7 @@ div.container-panier div.bloc-page-like div.bloc-like-music div.content-like a.b
   }
 }
 
+/* -------- affichage à partir de 769px -------- */
 @media screen and (max-width: 769px) {
   div.container-panier div.bloc-page-panier {
     display: flex;
@@ -1401,6 +1410,7 @@ div.container-panier div.bloc-page-like div.bloc-like-music div.content-like a.b
   }
 }
 
+/* -------- affichage à partir de 767px -------- */
 @media screen and (max-width: 767px) {
   div.container-panier div.content-panier-infos {
     max-height: 92px;
@@ -1447,6 +1457,7 @@ div.container-panier div.bloc-page-like div.bloc-like-music div.content-like a.b
   }
 }
 
+/* -------- affichage à partir de 573px -------- */
 @media screen and (max-width: 573px) {
   div.container-panier div.bloc-page-panier {
     display: block;
@@ -1591,6 +1602,7 @@ div.container-panier div.bloc-page-like div.bloc-like-music div.content-like a.b
   }
 }
 
+/* -------- affichage desktop -------- */
 article.container-event-perso div.bloc-events-perso div.img-event-perso {
   padding: 0;
   height: 500px;
@@ -1709,6 +1721,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   padding: 90px 0;
 }
 
+/* -------- affichage à partir de 1399px -------- */
 @media screen and (max-width: 1399px) {
   article.container-event-perso div.bloc-events-perso div.img-event-perso {
     height: 450px;
@@ -1746,6 +1759,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 1199px -------- */
 @media screen and (max-width: 1199px) {
   article.container-event-perso div.bloc-events-perso div.img-event-perso {
     padding: 0;
@@ -1806,6 +1820,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 991px -------- */
 @media screen and (max-width: 991px) {
   article.container-event-perso div.bloc-events-perso div.img-event-perso {
     padding: 0;
@@ -1873,6 +1888,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 530px -------- */
 @media screen and (max-width: 530px) {
   article.container-event-perso div.bloc-events-perso div.infos-event div.content-video iframe {
     width: 100%;
@@ -1889,6 +1905,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 983px -------- */
 @media screen and (max-width: 983px) {
   article.container-event-perso div.bloc-events-perso div.infos-event div.content-video iframe {
     width: 100%;
@@ -1896,6 +1913,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 767px -------- */
 @media screen and (max-width: 767px) {
   article.container-event-perso div.bloc-events-perso div.infos-event div.content-video iframe {
     width: 100%;
@@ -1903,6 +1921,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 567px -------- */
 @media screen and (max-width: 567px) {
   article.container-event-perso div.bloc-events-perso div.infos-event div.content-video iframe {
     width: 100%;
@@ -1910,6 +1929,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 480px -------- */
 @media screen and (max-width: 480px) {
   article.container-event-perso div.bloc-events-perso div.infos-event div.content-video iframe {
     width: 100%;
@@ -1917,6 +1937,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 450px -------- */
 @media screen and (max-width: 450px) {
   article.container-event-perso div.bloc-events-perso div.infos-event div.content-video iframe {
     width: 100%;
@@ -1924,6 +1945,7 @@ article.container-event-perso div.bloc-events-perso div.infos-event div.content-
   }
 }
 
+/* -------- affichage à partir de 400px -------- */
 @media screen and (max-width: 400px) {
   article.container-event-perso div.bloc-events-perso div.infos-event div.content-video iframe {
     width: 100%;
@@ -2037,8 +2059,4 @@ footer.footer .container .row div.container-social-icons img.social-icons {
   footer.footer .container .row .menu-nav nav.nav li {
     font-size: 12px;
   }
-}
-
-.test {
-  border: 1px solid #000;
 }

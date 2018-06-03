@@ -1,3 +1,4 @@
+/* -------- affichage desktop -------- */
 div.container-panier{
   div.bloc-page-panier{
     display: flex;
@@ -142,7 +143,7 @@ div.container-panier{
     }
   }
 }
-
+/* -------- affichage à partir de 1399px -------- */
 @media screen and (max-width: 1399px){
   div.container-panier{
     div.bloc-page-panier{
@@ -156,7 +157,7 @@ div.container-panier{
     }
   }
 }
-
+/* -------- affichage à partir de 991px -------- */
 @media screen and (max-width: 991px){
   div.container-panier{
     div.bloc-page-panier{
@@ -211,7 +212,7 @@ div.container-panier{
     }
   }
 }
-
+/* -------- affichage à partir de 769px -------- */
 @media screen and (max-width: 769px){
   div.container-panier{
     div.bloc-page-panier{
@@ -325,6 +326,7 @@ div.container-panier{
     }
   }
 }
+/* -------- affichage à partir de 767px -------- */
 @media screen and (max-width: 767px){
   div.container-panier{
     div.bloc-page-panier{
@@ -381,6 +383,7 @@ div.container-panier{
     }
   }
 }
+/* -------- affichage à partir de 573px -------- */
 @media screen and (max-width: 573px){
   div.container-panier{
     div.bloc-page-panier{

@@ -1,3 +1,4 @@
+/* -------- affichage desktop -------- */
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -43,7 +44,7 @@ header.header{
   }
 
 }
-
+/* -------- affichage à partir de 992px -------- */
 @media screen and (max-width: 992px){
   header.header{
     .container{
@@ -62,7 +63,7 @@ header.header{
 
   }
 }
-
+/* -------- affichage à partir de 768px -------- */
 @media screen and (max-width: 768px){
   header.header{
     .container{
@@ -80,16 +81,13 @@ header.header{
   }
 }
 
-
+/* -------- affichage à partir de 510px -------- */
 @media screen and (max-width: 510px){
   header.header{
     .container{
       padding-top:15px;
       padding-bottom: 15px;
       .row{
-        .logo{
-
-        }
         .menu-nav{
           nav.nav{
             text-align: right;

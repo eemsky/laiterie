@@ -6,7 +6,7 @@
       <div class="background-contact">
         <div class="bloc-contact">
           <h2>NOUS CONTACTER</h2>
-          <p>Laissez nous un message ci-dessous</p>
+          <p>Laissez-nous un message ci-dessous</p>
               <form class="bloc-formulaire" method="post">
                 <input class="champ-text" id="prenom" type="text" name="prenom" placeholder="Votre prénom"/><br/>
                 <input class="champ-text" id="nom" type="text" name="nom" placeholder="Votre nom"/><br/>

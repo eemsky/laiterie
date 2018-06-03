@@ -27,10 +27,8 @@
 
 		<!-- wrapper -->
 		<div class="wrapper">
-
 			<!-- header -->
 			<header class="header clear" role="banner">
-
 					<!-- logo -->
 					<div class="container">
 						<div class="row justify-content-between">
@@ -39,7 +37,6 @@
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img src="<?php echo get_template_directory_uri(); ?>/img/laiterie.svg" alt="Logo" class="logo-img">
 						</a>
-
 						</div>
 						<div class="menu-nav col-6 col-sm-5 col-md-9 col-lg-9 align-self-center">
 
@@ -53,20 +50,9 @@
 						</nav>
 						</div>
 					</div>
-					<!-- /logo -->
-
-					<!-- nav -->
-
-					<!-- /nav -->
 				</div>
-
 			</header>
-
 			<script>
 			new WOW().init();
 			</script>
-
-
-
-
 			<!-- /header -->
